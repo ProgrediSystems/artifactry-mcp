@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.artifactry/artifactry",
+  "title": "Artifactry",
+  "description": "Search, read and save your team's AI-generated work in Artifactry: code, documents and diagrams.",
+  "version": "1.0.0",
+  "websiteUrl": "https://artifactry.ai/docs/connectors",
+  "icons": [
+    {
+      "src": "https://mcp.artifactry.ai/icons/artifactry.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://mcp.artifactry.ai/icons/artifactry-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.artifactry.ai/mcp"
+    }
+  ]
+}
