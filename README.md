@@ -53,7 +53,7 @@ Step-by-step instructions for every app are at **[artifactry.ai/docs/connectors]
 | `fetch` | Read one search result's full text, with a link to cite. | No |
 | `create_artifact` | Save new work as an artifact, in a workspace you can write to. | Yes |
 | `update_artifact` | Change an artifact's title, content or tags. Earlier versions stay in version history. | Yes |
-| `delete_artifact` | Permanently remove an artifact. Marked destructive, and its description tells the AI app to confirm with you first. | Yes |
+| `delete_artifact` | Delete an artifact: it leaves your library and its share links stop working. This can't be undone. Marked destructive, and its description tells the AI app to confirm with you first. | Yes |
 
 ## How access works
 
